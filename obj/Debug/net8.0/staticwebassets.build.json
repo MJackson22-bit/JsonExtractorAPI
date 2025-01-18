@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3bMSVSdALicVZcdP9pVqk9Ot9DsdeZkgJsJS0iMPHLs=",
+  "Source": "JsonExtractorAPI",
+  "BasePath": "_content/JsonExtractorAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
