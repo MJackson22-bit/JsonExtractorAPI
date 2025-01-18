@@ -8,13 +8,12 @@ namespace JsonExtractorAPI.Controllers
     public class JsonExtractorController : ControllerBase
     {
 
-        [HttpGet]
-        public async Task<ActionResult<String>> GetJson()
+        [HttpGet("{fileId}")]
+        public async Task<ActionResult<String>> GetJson(string fileId)
         {
             try
             {
                 HttpClient client = new HttpClient();
-                string fileId = "1j9-QgtRySDQKsuxgggesU1CHkc97z7UF";
                 string downloadUrl = $"https://drive.google.com/uc?id={fileId}&export=download";
 
                 var response = await client.GetAsync(downloadUrl);
