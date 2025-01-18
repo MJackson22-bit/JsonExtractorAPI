@@ -1,4 +1,3 @@
-# JsonExtractorAPI
 # JSON Extractor and Database Inserter
 
 ## Overview
